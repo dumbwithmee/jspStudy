@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+	<h2> 쇼핑정보 이긴 함 </h2>
 </body>
 </html>

@@ -7,6 +7,25 @@
 <title>Insert title here</title>
 </head>
 <body>
+<center>
+
+<table>
+
+	<tr height="60" align="center">
+		<td><%@include file="main.jsp" %></td>
+	</tr>
+	
+	<tr height="60" align="center">
+		<td><%@include file="menu.jsp" %></td>
+	</tr>
+	
+	<tr height="60" align="center">
+		<td><%@include file="shopping.jsp" %></td>
+	</tr>
+
+</table>
+
+</center>
 	
 </body>
 </html>

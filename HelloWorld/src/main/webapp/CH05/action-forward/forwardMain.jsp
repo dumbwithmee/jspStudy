@@ -9,7 +9,7 @@
 <body>
 	<h2> forwardMain.jsp</h2>
 	<jsp:forward page="forwardFooter.jsp">
-		<jsp:param value="test@test.com" name="name"/>
+		<jsp:param value="test@test.com" name="email"/>
 		<jsp:param value="111-1111-1111" name="tel"/>
 	</jsp:forward>
 </body>

@@ -10,6 +10,7 @@
 	<h2>calcMain.jsp</h2>
 	<form action="calcProc.jsp" method="post">
 		<input type="text" name="num1">
+		
 		<select name="operator">
 		<option selected >+ </option>
 		<option> - </option>

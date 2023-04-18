@@ -11,15 +11,22 @@
 	<%
 		String id = request.getParameter("id");
 		String password = request.getParameter("password");
-	
 	%>
-	<p> id: <%= id %> </p>
-	<p> password: <%= password %></p>
+	
+	<jsp:forward page="redirectLogin.jsp">
+		<jsp:param value=<%= id %> name="id"/>
+		<jsp:param value=<%= password %> name="pass"/>
+	</jsp:forward>
+	
+	<p> id: <%= request.getParameter("id") %> </p>
+	<p> password: <%= request.getParameter("password") %></p>
 	
 	<% 
 		//다른 페이지로 이동
 		response.sendRedirect("redirectLogin.jsp");
 		
 	%>
+	
+	
 </body>
 </html>

@@ -9,11 +9,7 @@
 <body>
 
 	<h2> redirectLogin.jsp </h2>
-	<%
-		String id = request.getParameter("id");
-		String password = request.getParameter("password");
-
-	%>
+	
 	<p> id: <% request.getParameter("id"); %></p>
 	<p> password: <%= request.getParameter("password") %></p>
 
