@@ -17,12 +17,12 @@
 	</jsp:usebean>
 	
 	<%
-		if(login.CheckUser()){
+		/* if(login.CheckUser()){
 			out.println("로그인 성공!!");
 		}
 		else {
 			out.println("로그인 실패!!");
-		}
+		} */
 	%>
 	
 	<h2>loginProc.jsp</h2>

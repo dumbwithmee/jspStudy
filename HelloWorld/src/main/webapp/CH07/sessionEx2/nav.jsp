@@ -12,7 +12,7 @@
 <%
 String logout = request.getParameter("logout");
 //logout 변수에 값이 들어있으면,
-//로그아웃 버튼이 눌려지면,
+//로그아웃 버튼이 눌려지면, logout객체가 null이 아니라면,
 if (logout != null) {
 	session.setAttribute("username", null);
 	//session.setAttribute("id", null);

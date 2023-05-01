@@ -17,7 +17,7 @@
 	<%
 		String pw = request.getParameter("pw");
 		
-		// 세션에 id 이름으로 id 값을 저장...
+		// 세션에 pw 이름으로 pw 값을 저장...
 		session.setAttribute("pw", pw);
 	%>
 	
